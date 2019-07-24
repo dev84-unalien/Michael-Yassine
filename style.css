@@ -1,0 +1,80 @@
+#content{
+	height: 500px;
+	width: 300px;
+	background-color: red;
+	border: solid black 1px;
+	font-family: sans-serif;
+	color: white;
+}
+
+@font-face{
+	font-family: 'Achatifa';
+	src: url(Achatifa.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+.titre{
+	margin: 55px 0px 0px 50px;
+	font-family: 'Achatifa'
+}
+
+.sub > span{
+	width: 300px;
+	background-color: black;
+	margin-left: 80px; 
+}
+
+.sub > p{
+	display: flex;
+	flex-wrap: wrap;
+	width: 150px;
+	text-align: center;
+	margin-left: 75px; 
+	font-size: 13px;
+}
+
+.connexion{
+	display: flex;
+	flex-direction: column;
+}
+
+input{
+	margin: 10px 0px 0px 80px;
+	width: 80px;
+	height: 20px;
+	border-radius: 25px;
+}
+
+.connexion > .login{
+	padding-left: 20px; 
+}
+
+.connexion > .password{
+	padding-left: 20px; 
+}
+
+.connexion > span{
+	margin: 10px 0px 0px 80px;
+}
+
+.lien{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+button{
+	margin: 10px 0px 0px 80px;
+	width: 120px;
+	height: 30px;
+	border-radius: 35px;
+}
+
+.lien > .lmi{
+	background-color: #01D758;
+}
+
+.lien > .bf{
+	background-color: blue;
+}
